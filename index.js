@@ -250,10 +250,10 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array) {
   const array2 = {};
   for (let i = 0; i < array.length; i++){
-    array2 = array[i]["years"].split("-")
+   
   }
 }
-console.log(array2);
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
