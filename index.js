@@ -249,11 +249,13 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array) {
   const array2 = {};
+  const array3 = {};
   for (let i = 0; i < array.length; i++){
-   
-  }
+    array2 = array[i]["years"].split("-");
+    if (array2[i] <=1900 || array2[i] >= 2000);
+    }
+    return array2;
 }
-
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
